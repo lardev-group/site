@@ -3,38 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lardev</title>
+    <meta des />
+    <title>lardev research group</title>
     <style type="text/css">
-      .Aligner {
+      html,
+      body {
+        height: 100%;
+        min-height: 100%;
+      }
+
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background-color: #000;
+        color: #bfb;
+      }
+
+      .wrapper {
+        height: 100%;
+        min-height: 100%;
+        display: -webkit-flex;
         display: flex;
+        -webkit-align-items: center;
         align-items: center;
-        min-height: 24em;
+        -webkit-justify-content: center;
         justify-content: center;
-      }
-
-      .Aligner-item {
-        flex: 1;
-      }
-
-      .Aligner-item--top {
-        align-self: flex-start;
-      }
-
-      .Aligner-item--bottom {
-        align-self: flex-end;
-      }
-
-      .Aligner-item--fixed {
-        flex: none;
-        max-width: 50%;
       }
     </style>
   </head>
   <body>
-    <div class="Aligner">
-      <div class="Aligner-item Aligner-item--top">group</div>
-      <div class="Aligner-item"><h1>{Lardev}</h1></div>
-      <div class="Aligner-item Aligner-item--bottom">sb</div>
+    <div class="wrapper">
+      <div>
+        <img style="max-width: 100%;" src="assets/img/logo_dark.png" />
+        <div>
+          <span>coming soon</span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
